@@ -2,7 +2,7 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "is.k01/synthetic-health-data",
   "title": "K01 Synthetic Health Data",
-  "description": "Generate and query clinically realistic synthetic health data with built-in differential privacy. FHIR-compliant patient cohorts, clinical time series, and structured EHR data for development, testing, and research.",
+  "description": "Privacy-preserving synthetic health data generation. FHIR R4/R5 compliant.",
   "repository": {
     "url": "https://github.com/K01labs/k01-mcp-server",
     "source": "github"
