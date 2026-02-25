@@ -1,0 +1,24 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+  "name": "is.k01/synthetic-health-data",
+  "description": "Generate and query clinically realistic synthetic health data with built-in differential privacy. FHIR-compliant patient cohorts, clinical time series, and structured EHR data for development, testing, and research.",
+  "repository": {
+    "url": "https://github.com/K01labs/k01-mcp-server",
+    "source": "github"
+  },
+  "version": "1.7.1",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.k01.is/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "API key for authentication (Bearer token)",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
